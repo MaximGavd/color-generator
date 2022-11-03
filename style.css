@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.section_collors {
+    height: 100vh;
+    position: relative;
+}
+.row {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+.column {
+    flex: 0 0 20%;
+    background-color: gray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
